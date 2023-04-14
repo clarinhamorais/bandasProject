@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dire Straits</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/angelo.css">
+</head>
+
+<body class="corpo text-dark">
+
+
+    <div class="container principal">
+        <header>
+            <img class="centro mt-2" src="img/direStraits.jpg" alt="" width="1512" height="811">
+        </header>
+
+        <main>
+            <h1 class="centro mt-5">Sobre a banda</h1>
+            <h4 class="centro text-justify">Dire Straits foi uma banda de rock britânica formada em 1977 por Mark
+                Knopfler (guitarra e vocais), seu irmão David Knopfler (guitarra), John Illsley (baixo) e Pick Withers
+                (bateria). Embora formada em uma época em que o punk rock reinava absoluto, decidiram lidar com as
+                convenções do rock clássico. Não tardou para que a banda se tornasse conhecida mundialmente, ganhando o
+                status de disco de platina logo em seu primeiro álbum. Mesmo com "pouco" tempo de banda e apenas 6
+                álbuns de estúdio, a banda ultrapassou a marca de 100 milhões de discos vendidos mundialmente.
+
+                <br><br>
+
+                Entre suas canções mais conhecidas estão "Sultans of Swing", "Lady Writer", "Your Latest Trick", "Romeo
+                and Juliet", "Why Worry", "So Far Away", "Money for Nothing", "Walk of Life", "Tunnel of Love" e
+                "Brothers in Arms".
+                Apesar do grande sucesso, a banda terminou sem estardalhaços em 1995, quando Mark Knopfler expressou o
+                desejo de não mais fazer turnês em larga escala, passando imediatamente a se dedicar integralmente à sua
+                carreira solo.
+            </h4>
+
+
+            <h1 class="centro mt-5">Músicas favoritas</h1>
+
+            <div class="container d-flex justify-content-center ">
+
+                <div class="p-2">
+                    <section>
+                        <h3>Sultans Of Swing</h1>
+                            <audio class="audio" controls src="audio/Dire Straits - Sultans Of Swing.mp3"></audio>
+
+                            <button id="botaoC1" class="btn mb-5">
+                               <img id="iconC1" src="./img/coracaoB.png" alt="" width="30px" height="30px">
+                            </button>
+                    </section>
+                </div>
+
+                <div class="p-2">
+                    <section>
+                        <h3>Money For Nothing</h3>
+                        <audio class="audio" controls src="audio/Dire Straits - Money For Nothing.mp3"></audio>
+
+                        <button id="botaoC2" class="btn  mb-5">
+                            <img id="iconC2" src="./img/coracaoB.png" alt="" width="30px" height="30px">
+                            
+                        </button>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container d-flex justify-content-center">
+                <div class="p-2">
+                    <section>
+                        <h3>So Far Away</h3>
+                        <audio class="audio" controls src="audio/So Far Away (Remastered 1996).mp3"></audio>
+
+                        <button id="botaoC3" class="btn mb-5">
+                            <img id="iconC3" src="./img/coracaoB.png" alt="" width="30px" height="30px">
+
+                        </button>
+                    </section>
+                </div>
+
+                <div class="p-2">
+                    <section>
+                        <h3>Brothers In Arms</h3>
+                        <audio class="audio" controls src="audio/Dire Straits - Brothers In Arms.mp3"></audio>
+
+                        <button id="botaoC4" class="btn mb-5">
+                            <img id="iconC4" src="./img/coracaoB.png" alt="" width="30px" height="30px">
+                        </button>
+                    </section>
+                </div>
+            </div>
+
+            <h1 class="centro">Clipes Favoritos</h1>
+
+            <div class="container d-flex justify-content-center grande1 p-2">
+
+                <div class="p-2">
+                    <section>
+                        <iframe width="726" height="400" src="https://www.youtube.com/embed/K7gkaH1PqFA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </section>
+                </div>
+
+                <div class="p-2">
+                    <section>
+                        <iframe width="726" height="400" src="https://www.youtube.com/embed/z2nQZPC2uTs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </section>
+                </div>
+            </div>
+
+            <div class="container d-flex justify-content-center grande2 p-2">
+                <div class="p-2">
+                    <section>
+                        <iframe width="726" height="400" src="https://www.youtube.com/embed/q2rx3IAEISA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </section>
+                </div>
+
+                <div class="p-2">
+                    <section>
+                        <iframe width="726" height="400" src="https://www.youtube.com/embed/4rs9rCP_wpY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </section>
+                </div>       
+            </div>
+        </main>
+
+        <button class="btn btn-danger w-25 inicio ms-auto me-auto"><a class="inicioLink" href="index.html">INICIO</a></button>
+    </div>
+<script>
+const botao1 = document.getElementById("botaoC1")
+const icone1 = document.getElementById("iconC1")
+
+botao1.addEventListener('click', () => {
+        icone1.setAttribute('src', 'img/Vector.png')
+    
+})
+const botao2 = document.getElementById("botaoC2")
+const icone2 = document.getElementById("iconC2")
+
+botao2.addEventListener('click', () => {
+        icone2.setAttribute('src', 'img/Vector.png')
+    
+})
+const botao3 = document.getElementById("botaoC3")
+const icone3 = document.getElementById("iconC3")
+
+botao3.addEventListener('click', () => {
+        icone3.setAttribute('src', 'img/Vector.png')
+    
+})
+const botao4 = document.getElementById("botaoC4")
+const icone4 = document.getElementById("iconC4")
+
+botao4.addEventListener('click', () => {
+        icone4.setAttribute('src', 'img/Vector.png')
+    
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.centro {
+    margin-left: -100px;
+}
+
+.grande1 {
+    width: 726px;
+    height: 348px;
+    margin-bottom: 70px;
+}
+
+.grande2 {
+    flex-direction: row;
+    width: 726px;
+    height: 348px;
+}
+.corpo{
+    background-color: rgb(83, 83, 83);
+}
+.audio{
+    width: 500px;
+}
+.inicio{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.inicioLink{
+    text-decoration: none;
+    color: white;
+}

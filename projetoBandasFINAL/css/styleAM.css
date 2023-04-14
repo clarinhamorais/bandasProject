@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpb{
+    z-index: 1;
+    width: 1512px;
+    height: 811px;
+
+}
+
+/* .bg-black{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 1512px;
+    height: 813px;
+    padding-top: -200px;
+    z-index: 2;
+    bottom: 816px;
+    border: 20px solid rgb(141, 141, 24);
+}
+
+.h1-name{
+    padding-top: 350px;
+    text-align: center;
+    font-size: 70px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+/* @media screen and (max-width: 1500px){
+    
+    .imgpb {
+        height: 577px;
+        width: 1000px;
+    }
+    .bg-black{
+        height: 816px;
+        width: 1000px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+  }
+
+  @media screen and (max-width: 650px){
+    .imgpb {
+        height: 250px;
+        width: 450px;
+    }
+    .bg-black{
+        height: 815px;
+        width: 450px;
+    }
+    body{
+
+        display: flex;
+        justify-content: center;
+    }
+    .h1-name{
+        padding-top: 650px;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+  } */
+  .sobre{
+    width: 100;
+    height: 900px;
+
+    /* border: 3px solid red; */
+    margin-top: 10px;
+    /* background-color: aqua; */
+  }
+
+  .sobre h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+  }
+  .sobre p{
+    max-width: 1500px;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .main{
+    justify-content: center;
+    
+  }
+  .img-musica{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #f5eeee;
+  }
+  .musicas{
+    text-align: start;
+    font-size: 70px;
+  }
+  .musica1{
+    width: 726px;
+    height: 102px;
+    margin-left: 10px;
+    padding-top: -20px;
+
+    background-color: #Bcb9b9;
+  }
+  .musica2{
+    width: 726px;
+    height: 102px;
+    margin-left: 770px;
+    margin-top: -102px;
+
+    background-color: #Bcb9b9;
+
+  }  .musica3{
+    width: 726px;
+    height: 102px;
+    margin-top: 50px;
+    margin-left: 10px;
+
+    background-color: #Bcb9b9;
+
+  }  .musica4{
+    width: 726px;
+    height: 102px;
+    margin-left: 770px;
+    margin-top: -102px;
+
+    background-color: #Bcb9b9;
+  }
+  .audio1{
+    padding-top: 10px;
+    padding-left: 120px;
+    width: 550px;
+    height: 80px;
+
+  }
+  .audio2{
+    /* margin-top: -700px; */
+    padding-top: 20px;
+    padding-left: 120px;
+    width: 550px;
+    height: 80px;
+
+  }
+
+  .link2{
+margin-left: 750px;
+margin-top: -810px;
+  }
+  .link3{
+    margin-left: 750px;
+      }
+  
+
+/* section */
+
+.fundo {
+    background-color: #DFDFDF;
+    width: 726px;
+    height: 400px;
+}
+
+.aluno1 {
+    width: 100px;
+    height: 100px;
+    margin-top: -180px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+.nome1 {
+    margin-top: -90px;
+    margin-left: 150px;
+    position: absolute;
+    background-color: #DFDFDF;
+    width: 250px;
+}
+.banda1{
+    margin-top: -140px;
+    margin-left: 150px;
+    position: absolute;
+    background-color: #DFDFDF;
+    width: 250px;
+}
+.grande1{
+    width: 726px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.foto{
+    border: black 2px solid;
+}

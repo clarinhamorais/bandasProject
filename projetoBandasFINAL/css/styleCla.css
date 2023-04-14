@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.capaclara{
+    width: 100%;
+    height: 811px;
+    display: flex;
+    justify-content: center;
+}
+
+.timagine{
+    position: absolute;
+    width: 100%;
+    top: 370px;
+    left: 0;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+.sobre-dragons{
+    margin-top: 50px;
+    width: 83%;
+    margin-left: 110px;
+    text-align:justify;
+}
+
+.sobre-dragons h2{
+    font-weight: 700;
+}
+
+.sobre-dragons p{
+    font-size: 22px;
+}
+
+.part3{
+    margin-left: 110px;
+    width: 83%;
+}
+
+.music{
+    height: 220px;
+    margin-top: 30px;
+}
+
+.musplayer{
+    position: relative;
+    width: 540px;
+    height: 105px;
+    
+    background-color: #BCB9B9;
+}
+
+.musplayer2{
+    position: relative;
+    width: 540px;
+    height: 105px;
+    top: 10px;
+
+    background-color: #BCB9B9;
+}
+
+.musplayer3{
+    position: relative;
+    width: 540px;
+    height: 105px;
+    left: 550px;
+    bottom: 210px;
+    background-color: #BCB9B9;
+
+}
+
+.musplayer4{
+    position: relative;
+    width: 540px;
+    height: 105px;
+    left: 550px;
+    bottom: 200px;
+    background-color: #BCB9B9;
+}
+
+.clipes{
+    margin-left: 110px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.cli3{
+    position: relative;
+    top: 10px;
+}
+.cli2{
+    position: relative;
+    left: 10px;
+}
+.cli4{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.clis{
+    margin-top: 35px;
+    width: 85%;
+}
+
+.aud1{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+}
+
+.aud2{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+}
+
+.aud3{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+}
+
+.aud4{
+    position: relative;
+    bottom: 80px;
+    left: 120px;
+}
+
+.core{
+
+    position: relative;
+    bottom: 130px;
+    left: 470px;
+}
